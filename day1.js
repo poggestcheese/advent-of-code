@@ -1156,7 +1156,5 @@ for (const line of lines) {
     results.push(result);
 }
 
-console.log(results.join());
-
 const resultss = results.map(x => Number(x)).reduce((a, b) => a + b, 0);
 console.log(resultss);
