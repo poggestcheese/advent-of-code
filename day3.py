@@ -1,7 +1,7 @@
 import sys
 import re
 from collections import defaultdict
-filey = open("aoc.txt", "r").read()
+filey = open("day3.txt", "r").read()
 lines = filey.split('\n')
 chararr = [[c for c in line] for line in lines]
 chars = len(chararr)
